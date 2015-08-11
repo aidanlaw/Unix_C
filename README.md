@@ -1,6 +1,6 @@
 # Unix_C
 Mechatronics Code for Unix C and Programming
 
-Testing Readme Push
+Each lab and its code should be written and commented to explain the programming methods
 
-1 2\n 3 4
+The code is pushed from Xcode on a Macbook Air

@@ -30,3 +30,9 @@
 
 # Debug files
 *.dSYM/
+
+# Xcode files
+*.xcodeproj
+*.xcscheme
+*.pbxproj
+*.plist

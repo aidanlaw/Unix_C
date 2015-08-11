@@ -1,6 +1,6 @@
 //
 //  main.c
-//  Question1a
+//  Question1
 //
 //  Created by Aidan Law on 11/08/2015.
 //

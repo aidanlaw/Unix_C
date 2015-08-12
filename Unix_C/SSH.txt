@@ -1,0 +1,3 @@
+Login to Curtin Home directory with the following code
+
+"ssh saeshell01p.curtin.edu.au -l studentnumber"

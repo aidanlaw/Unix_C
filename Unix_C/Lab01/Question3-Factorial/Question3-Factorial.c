@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-unsigned long int factorial(int);
+unsigned long int factorial(int);   //Forward declaration is needed, similar to a table of contents
 
 int main(void)
 {
@@ -16,11 +16,14 @@ int main(void)
     printf("Input a number to calculate the corresponding factorial\n");
     scanf("%d", &input);
     
-    if (input<0) {
+    if (input<0)
+    {
         printf("The number entered is not within the range\n");
     }
-    else if (input>=0){
-    printf("%d! = %ld\n", input, factorial(input));
+    
+    else if (input>=0)
+    {
+        printf("%d! = %ld\n", input, factorial(input));
     }
     
     return 0;

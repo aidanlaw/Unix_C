@@ -1,7 +1,7 @@
 //
 //  Question3-Factorial
 //
-//  Stolen by Aidan Law on 12/08/2015.
+//  Created by Aidan Law on 12/08/2015.
 //
 //
 

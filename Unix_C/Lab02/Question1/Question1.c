@@ -37,4 +37,4 @@ void f(void)
     printf("Hello world\n");
 }
 #endif
-// if LENGTH hasn't been defined, then it defines it and performs the function
+// if THEFILE hasn't been defined, then it defines it and performs the function

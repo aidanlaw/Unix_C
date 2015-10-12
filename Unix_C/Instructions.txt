@@ -1,0 +1,35 @@
+//
+//  Instructions
+//  ----------------------------------
+//
+//  Project 	Unix_C
+//  Created by 	Aidan Law on 10/10/2015
+//
+
+To run any program with its corresponding Makefile:
+
+- use the program "Terminal"
+- <cd> to go into the correct folder
+- <ls> to list the contents and check
+- <make> to run the Makefile and compile the program
+- <./programName> to execute the program
+- <make clean> to remove the program and compiled files when finished
+
+The commands required are as follows:
+=============================
+
+cd "folderLocation/subFolder"
+
+ls
+
+make
+
+./programName
+
+make clean
+
+=============================
+
+An example of a Makefile should be located in Question1 of Lab04
+
+Note: A Makefile must always be named "Makefile" with no extensions

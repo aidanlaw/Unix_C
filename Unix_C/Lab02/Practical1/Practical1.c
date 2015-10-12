@@ -1,28 +1,30 @@
+/*
 //
 //  Practical1
 //
 //  Created by Aidan Law on 19/08/2015.
 //
 //
+*/
 
 #include <stdio.h>
-#include <unistd.h>
+#include <unistd.h> /*required for sleep function*/
 
-unsigned long int power();   //Forward declaration is needed, similar to a table of contents
+int power();   /*Forward declaration is needed, similar to a table of contents*/
 
 int main(void)
 {
     int input;
     
     printf("This program calculates the powers of two each time the function is called\n");
-    printf("Input the amount of numbers you want as an output\n");
+    printf("Input the amount of rows you want as an output: ");
     
-    scanf("%d", input);
+    scanf("%d\n", &input);
     
     int i;
     for (i=0; i<=input; i++)
     {
-        printf("%ld\n",power());
+        printf("%d\n", power(input));
     }
     
     /*while (1)
@@ -34,9 +36,9 @@ int main(void)
     return 0;
 }
 
-unsigned long int power(void)
+int power(void)
 {
-    static unsigned long int result = 1;
+    static int result = 1;
     result *= 2;
     return result;
 }

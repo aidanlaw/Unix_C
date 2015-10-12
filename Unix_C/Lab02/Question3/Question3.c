@@ -11,4 +11,4 @@
 
 // b) Why would you never declare a static function in a header file?
 
-//  Not accesible from outside the header file
+//  Not accessible from outside the header file

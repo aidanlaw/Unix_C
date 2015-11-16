@@ -1,19 +1,19 @@
 
 						/*RAND QUESTIONS*/
 /*================================================================*/
-/*  Uncomment a section of code and execute the following commmand	|
-|																	|
-|		make run													|
-|																	|
-| NOTE:	This will only function when arguments are not required.	|
-|		If arguments are required during execution execute:			|
-|																	|
-|		make <enter>												|
-|		./prog <arg> <arg> ...										|
-|																	|
-| NOTE:	Some questions only require the function itself so the		|
-|		main function is not required in the exam. For the purpose	|
-|		of testing, the main function is included in the examples.	|
+/*  Uncomment a section of code and execute the following commmand	
+|
+|		make run
+|
+| NOTE:	This will only function when arguments are not required.
+|		If arguments are required during execution execute:
+|
+|		make <enter>
+|		./prog <arg> <arg> ...
+|
+| NOTE:	Some questions only require the function itself so the
+|		main function is not required in the exam. For the purpose
+|		of testing, the main function is included in the examples.
 /*================================================================*/
 						/* 2010 QUESTION 2*/
 /*

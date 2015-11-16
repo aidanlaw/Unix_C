@@ -69,18 +69,18 @@
  
 	if(check == 0)
 	{
- *dice1 = rand()%6;
- *dice1 += 1;
- *dice2 = rand()%6;
- *dice2 += 1;
- check = 1;
+		 *dice1 = rand()%6;
+		 *dice1 += 1;
+		 *dice2 = rand()%6;
+		 *dice2 += 1;
+		 check = 1;
 	}
  
 	else
 	{
- *dice1 = 6;
- *dice2 = 6;
- check = 0;
+		 *dice1 = 6;
+		 *dice2 = 6;
+		 check = 0;
 	}
  }
  
@@ -101,9 +101,9 @@
  
 	for (i = 0; i < rolls; i++)
 	{
- loadedDice(&dice1, &dice2);
- printf("\t Dice 1: %d\n", dice1);
- printf("\t Dice 2: %d\n", dice2);
+		 loadedDice(&dice1, &dice2);
+		 printf("\t Dice 1: %d\n", dice1);
+		 printf("\t Dice 2: %d\n", dice2);
 	}
  }
  */
@@ -215,15 +215,15 @@
 	static int count;
 	if(count < 12)
 	{
- *dicea = rand()%(6)+1;
- *diceb = rand()%(6)+1;
- count++;
+		 *dicea = rand()%(6)+1;
+		 *diceb = rand()%(6)+1;
+		 count++;
 	}
 	else
 	{
- *dicea = 8;
- *diceb = 8;
- count = 0;
+		 *dicea = 8;
+		 *diceb = 8;
+		 count = 0;
 	}
  }
  
@@ -235,8 +235,8 @@
 	
 	for (i = 0; i < 28; i++)
 	{
- twoDice(&dicea, &diceb);
- printf("\tdice%dA:  \t%d\tdice%dB:  \t%d\n", i+1, dicea, i+1, diceb);
+		 twoDice(&dicea, &diceb);
+		 printf("\tdice%dA:  \t%d\tdice%dB:  \t%d\n", i+1, dicea, i+1, diceb);
 	}
  }
  */
@@ -278,7 +278,7 @@
 	int i;
 	for(i=0;i<count;i++)
 	{
- *sum = *sum + array[rand()%(length)];
+		*sum = *sum + array[rand()%(length)];
 	}
  }
  int main()
@@ -289,7 +289,7 @@
 	count = 3;
 	for (i = 0; i < length; i++)
 	{
- array[i] = i;
+		array[i] = i;
 	}
 	srand(time(NULL));
 	sumArray(array, count, &sum);

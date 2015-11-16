@@ -14,7 +14,7 @@
 	int i;
 	for (i = 0; i < (argc-1); i++)
 	{
- printf("\t%s\n", argv[argc-1-i]);
+		printf("\t%s\n", argv[argc-1-i]);
 	}
  }
  */
@@ -37,7 +37,7 @@
 	int i;
 	for (i=0;i<count;i++)
 	{
- printf("\t%d\n", rand()%(max));
+		printf("\t%d\n", rand()%(max));
 	}
  }
  int main(int argc, char* argv[])
@@ -76,17 +76,17 @@
 	in2 = atoi(argv[2]);
 	if(in1>in2)
 	{
- num = myRand(in1,in2);
- printf("\t%d\n", num);
+		num = myRand(in1,in2);
+		printf("\t%d\n", num);
 	}
 	else if(in1<in2)
 	{
- num = myRand(in2,in1);
- printf("\t%d\n", num);
+		num = myRand(in2,in1);
+		printf("\t%d\n", num);
 	}
 	else
 	{
- printf("\tNumbers are the equivalent\n");
+		printf("\tNumbers are the equivalent\n");
 	}
  }
  */

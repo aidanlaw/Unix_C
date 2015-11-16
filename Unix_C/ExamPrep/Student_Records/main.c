@@ -162,8 +162,7 @@ int main(int argc, char* argv[])
 		/*Following not asked for in question but is necessary code*/
 		for (i=0; i>record->nStudents; i++)
 		 {
-			free(record->students[0].unitList);
-			free(record->students[1].unitList);
+			free(record->students[i].unitList);
 		 }
 		free(&record->students);
 	}

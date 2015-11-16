@@ -1,0 +1,20 @@
+This file is will only be used to be the original document which the program will copy.
+
+To execute the file run "make" in terminal and then input the following information:
+
+./prog <input document> <output document>
+
+So for example we have a text file called read.txt and we want to make a copy of it
+called write.txt, we would have to input the following into terminal:
+=========================
+./prog read.txt write.txt
+=========================
+
+To check the program works as intended, use the "diff" command in the terminal to check as follows:
+=========================
+diff read.txt write.txt
+=========================
+If no difference between the files exist then the terminal will remain silent.
+
+
+NOTE: The document that is read must already exist. The new document name is up to the user.

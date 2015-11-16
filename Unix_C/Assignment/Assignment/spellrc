@@ -1,0 +1,7 @@
+maxcorrection = 3
+dictionary = wrongDictionary.txt
+maxcorrection = 4
+autocorrect = yes
+dictionary = testDict.txt
+maxcorrection = 2
+autocorrect = no

@@ -1,12 +1,9 @@
-//
-//  ToDo
-//  Text
-//  ----------------------------------
-//  Developed with embedXcode
-//
-//  Project 	Assignment
-//  Created by 	Aidan Law on 27/10/2015
-//  Copyright 	© 2015 __MyCompanyName__
-//  License	<#license#>
-//
+
+
+To Do
+
+solve the free of the input text array in file userInput.c line 145
+
+Move functions from main to designated .c files
+
 

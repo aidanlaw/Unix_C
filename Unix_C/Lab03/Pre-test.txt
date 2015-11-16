@@ -1,0 +1,17 @@
+//
+//  Pre-test
+//  Text
+//  ----------------------------------
+//  Developed with embedXcode
+//
+//  Project 	Lab03
+//  Created by 	Aidan Law on 26/08/2015
+//  Copyright 	© 2015 __MyCompanyName__
+//  License	<#license#>
+//
+
+#define const macro
+
+*.txt
+??.*
+[^a-g]*

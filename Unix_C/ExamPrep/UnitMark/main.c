@@ -7,13 +7,13 @@
  Date: 17/11/2015
  
  Directions: Execute the following command in the Terminal if there is a Makefile
- make run
+	make run
  
  To Do: Change option [3] to print out correct values when the following takes place
- Option [1] - completed
- Option [2] - completed
- Option [1] - repeated
- Option [3] - final mark printed is not changed from previous value
+	Option [1] - completed
+	Option [2] - completed
+	Option [1] - repeated
+	Option [3] - final mark printed is not changed from previous value
  */
 #include <stdio.h>
 #include <stdlib.h>
@@ -159,9 +159,9 @@ float processOther(float other[2][4])
 int main(void)
 {
 	float question[2][5] = {{0.0 ,0.0 ,0.0 ,0.0 ,0.0 },
-		{19.0,10.0,20.0,21.0,30.0}};
-	float other[2][4] = {{0.0 , 0.0, 0.0, 0.0 },
-		{80.0,100.0,100.0,100.0}};
+							{19.0,10.0,20.0,21.0,30.0}};
+	float other[2][4] =	   {{0.0 , 0.0, 0.0, 0.0 },
+							{80.0,100.0,100.0,100.0}};
 	int option;
 	float totalMark;
 	option = 0;
